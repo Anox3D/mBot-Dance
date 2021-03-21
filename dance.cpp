@@ -49,25 +49,25 @@ void setup(){
     for(int __i__=0;__i__<2;++__i__)
     {
       buzzer.tone(247,500);  // B3
-      delay(10);
+      delay(3);
       buzzer.tone(247,500);  // B3
-      delay(10);*
+      delay(3);
       buzzer.tone(193,500);  // G3
-      delay(10);
+      delay(3);
       buzzer.tone(193,500);  // G3
-      delay(10);
+      delay(3);
       buzzer.tone(175,500);  // F3
-      delay(10);
+      delay(3);
       buzzer.tone(175,500);  // F3
-      delay(10);
-      buzzer.tone(193,500);  // G3
-      delay(7);
+      delay(3);
       buzzer.tone(193,500);  // G3
       delay(2);
-      buzzer.tone(220,500);  // A3
-      delay(7);
+      buzzer.tone(193,500);  // G3
+      delay(1);
       buzzer.tone(220,500);  // A3
       delay(2);
+      buzzer.tone(220,500);  // A3
+      delay(1);
     }
   // 360 (or not I don't know, I'll see)
     move(4,255);
